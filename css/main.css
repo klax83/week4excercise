@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+}
+.box {
+	display: inline-block;
+	height: 200px;
+	width: 24%;
+}
+.blue {
+	background-color: blue;
+}
+.red {
+	background-color: red;
+}
+.grey {
+	background-color: grey;
+}
+.violet	{
+	background-color: violet;
+}
+div.container {
+	height: 350px;
+	width: 200px;
+	background-color: tomato;
+}
+h1 {
+	text-align: left;
+}
+
+
+
+@media(min-width: 1000px) {
+	.box {
+		display: block;
+		width: 100%;
+	}
+}
+
+@media(max-width: 600px) {
+	div.red {
+		display: none;
+	}
+	div.grey {
+		display: none;
+	}
+}
+
+
